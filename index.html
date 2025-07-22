@@ -56,14 +56,33 @@
       text-align: center;
       color: #636363;
     }
-    
+
+    /* iframe responsive code */
+    .resp-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%;
+    }
+
+    .resp-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
   </style>
 </head>
 
 <body>
 <h1>Venu Alluri</h1>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VmU1ZsXUbG0?si=-uVK4eblEobUOnkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <div class="resp-container">
+  <iframe class="resp-iframe" width="560" height="315" src="https://www.youtube.com/embed/VmU1ZsXUbG0?si=-uVK4eblEobUOnkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </iframe>
+  </div>
+  
   <br>
   <h2>SAIRAT</h2>
 
