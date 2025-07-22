@@ -73,9 +73,24 @@
       border: 0;
     }
 
-    .video {
-      max-width: 360px;
+    @media screen and (min-width: 1080px) {
+      .video {
+        max-width: 1080px;
+      }    
     }
+
+    @media screen and (min-width: 720px) {
+      .video {
+        max-width: 720px;
+      }
+    }
+    
+    @media screen and (min-width: 480px) {
+      .video {
+        max-width: 360px;
+      }
+    }
+    
     
   </style>
 </head>
